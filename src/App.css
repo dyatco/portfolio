@@ -1,0 +1,120 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundprimary {
+  background-color: #023038;
+/*  background-image: url(./Images/profile.png);*/
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center top;
+}
+
+h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+  letter-spacing: 3px;
+  color: #F1F1E6;
+}
+
+nav {
+  font-family: 'League Spartan', sans-serif;
+  /*color: #F1F1E6;*/
+  font-size: 1.5em;
+}
+
+.line {
+  position: absolute;
+  margin: auto;
+  height: 10px;
+  background: #FFB15B;
+  width: 3rem;
+  top: 10rem;
+  border-radius: 25px;
+}
+
+h2, h4 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #F1F1E6;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #F1F1E6;
+}
+
+.navbar-brand {
+  /*color: #FFB15B;*/
+  font-size: 1.5em;
+}
+
+.orange {
+  color: #FFB15B;
+}
+
+.offwhite {
+  color: #F1F1E6;
+}
+
+.containerheight {
+  height: 50%;
+  width: 100%;
+}
+
+button {
+  color: #023038;
+  background-color: #FFB15B;
+  border-radius: 35px;
+  padding: 1rem;
+}
+
+.darkbg {
+  background-color: #022C33;
+  background-size: 100%;
+}
+
+p, form {
+  font-family: 'Roboto', sans-serif;
+  color: #F1F1E6;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-item {
+  font-family: 'League Spartan', sans-serif;
+  color: #F1F1E6;
+  font-size: 1.8rem;
+}
+
+.arrow {
+  border: solid #FFB15B;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.center {
+  margin: auto;
+}
