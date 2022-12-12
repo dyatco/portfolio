@@ -4,20 +4,22 @@ import { Fade } from 'react-reveal'
 export default function Home(){
   return(
     
-    <div class="container-fluid p-0">
-      <div class="row min-vh-100 mx-md-5 mt-5 pt-5 px-5 pb-0">
-       <div class="my-5 col-12 col-md-0 my-md-0"></div>
-         <div class="mb-0 col-12 col-md-4 mr-auto">
-         <Fade>
-         <h1 class="w-50 mb-0">DAPHNE YATCO
-          <span class="orange">.</span>
-         </h1>
-         </Fade>
-         {/*<div class="line"></div>
-        <h5 class="w-75 pt-5">DEVELOPER | DESIGNER | ADVENTURER</h5>*/} 
+  <div class="container-fluid p-0 min-vh-100 min-vw-100 d-flex justify-content-center align-items-center text-center">
+    <div class="row ">
+       <div class="mb-0 col-12  justify-content-center">
+          <Fade delay={500}>
+            <h1 class>Hi, I'm
+              <span class="orange"> Daphne Yatco</span>,
+            </h1>
+            </Fade>
+            <Fade delay={1500}>
+            <div>
+            <h3>Front-End Developer</h3>
+            </div>
+          </Fade>
         </div>
-      </div>
     </div>
+  </div>
 
     )
 }
