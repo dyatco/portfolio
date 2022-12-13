@@ -1,4 +1,3 @@
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { Fade } from 'react-reveal'
 
 export default function Home(){
@@ -8,8 +7,7 @@ export default function Home(){
     <div class="row ">
        <div class="mb-0 col-12  justify-content-center">
           <Fade delay={500}>
-            <h1 class>Hi, I'm
-              <span class="orange"> Daphne Yatco</span>,
+            <h1 class>Hi, I'm <span class="orange"> Daphne Yatco</span>,
             </h1>
             </Fade>
             <Fade delay={1500}>

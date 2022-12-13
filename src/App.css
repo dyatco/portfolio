@@ -118,3 +118,14 @@ ul {
 .center {
   margin: auto;
 }
+
+/*SKILLS*/
+.skills1{
+  justify-content: space-evenly;
+}
+
+/*PROJECTS*/
+.projectPhoto{
+  border: 10px ;
+  border-radius: 20px;
+}
