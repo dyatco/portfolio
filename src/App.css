@@ -122,10 +122,21 @@ ul {
 /*SKILLS*/
 .skills1{
   justify-content: space-evenly;
+
 }
 
 /*PROJECTS*/
 .projectPhoto{
   border: 10px ;
   border-radius: 20px;
+  position: absolute;
+  right: 0px;
 }
+
+.projectPhoto2{
+  border: 10px ;
+  border-radius: 20px;
+  position: absolute;
+  left: 0px;
+}
+
