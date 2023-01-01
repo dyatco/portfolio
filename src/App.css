@@ -8,7 +8,7 @@
 
 .backgroundprimary {
   background-color: #023038;
-/*  background-image: url(./Images/profile.png);*/
+  background-image: url(./Images/bg.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center top;
@@ -24,8 +24,11 @@ h1, h3{
 
 nav {
   font-family: 'League Spartan', sans-serif;
-  /*color: #F1F1E6;*/
+  color: #F1F1E6;
   font-size: 1.5em;
+}
+.nav{
+  color: #F1F1E6;
 }
 
 .line {
