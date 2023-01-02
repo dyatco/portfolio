@@ -12,7 +12,7 @@ import React from '../Images/react.png'
 export default function Skills(){
   return(
     
-  <div class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5 mb-5">
+  <div class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5 mb-sm-5">
     <div class="row">
        <div class="mb-0 col-12  justify-content-center">
           <Fade delay={500}>

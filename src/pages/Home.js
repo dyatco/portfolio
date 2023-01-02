@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal'
 export default function Home(){
   return(
     
-  <div class="container-fluid p-0 min-vh-100 min-vw-100 d-flex justify-content-center align-items-center text-center">
+  <div class="backgroundImg container-fluid p-0 min-vh-100 min-vw-100 d-flex justify-content-center align-items-center text-center pb-5 mb-5">
     <div class="row ">
        <div class="mb-0 col-12  justify-content-center">
           <Fade delay={500}>
