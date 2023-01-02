@@ -88,13 +88,6 @@ h5 {
   width: 100%;
 }
 
-button {
-  color: #023038;
-  background-color: #FFB15B;
-  border-radius: 35px;
-  padding: 1rem;
-}
-
 .darkbg {
   background-color: #022C33;
   background-size: 100%;
@@ -140,16 +133,18 @@ ul {
 }
 
 /*PROJECTS*/
-.projectPhoto{
-  border: 10px ;
-  border-radius: 20px;
-}
-
 .projectPhoto2{
-  border: 10px ;
-  border-radius: 20px;
   position: absolute;
   left: 0px;
+}
+
+.projectDesc{
+  font-size: 16px;
+}
+
+.projectTools{
+  color: #03989e;
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 576px){
@@ -160,3 +155,5 @@ ul {
     font-size: 12px;
   }
 }
+
+/*CONTACT*/
