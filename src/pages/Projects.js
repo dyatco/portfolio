@@ -7,7 +7,7 @@ import Spec from '../Images/spec.png'
 export default function Projects(){
   return(
     
-  <div class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5">
+  <div id="projects" class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5">
       <div class="row">
        <div class="mb-0 col-12  justify-content-center">
         

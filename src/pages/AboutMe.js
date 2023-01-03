@@ -2,7 +2,7 @@ import profile from '../Images/profile.png'
 
 export default function AboutMe(){
   return(
-    <div class="min-vh-100 justify-content-center text-start">
+    <div id="about" class="min-vh-100 justify-content-center text-start">
       <div class="row min-vh-100">
        <div class="mb-0 col-6 p-0">
         
@@ -16,7 +16,7 @@ export default function AboutMe(){
 
             Apart from being a web developer, I am also an explorer. I love discovering places and trying new things.
           </p>
-          <h1>Get in Touch</h1>
+          <h1 id="contact">Get in Touch</h1>
           <p class="w-75">
            I am currently looking for new opportunities. <br/>
            My inbox is always open for any comments or questions!
