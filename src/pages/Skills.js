@@ -13,14 +13,14 @@ export default function Skills(){
   return(
     
   <div id="skills" class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5 mb-sm-5">
-    <div class="row">
-       <div class="mb-0 col-12  justify-content-center">
+    <div class="widthAdjust row">
+       <div class="widthAdjust mb-0 col-12  justify-content-center">
           <Fade delay={500}>
             <h1 class="pb-5">Skills</h1>
           </Fade>
         
-          <div class="min-vw-100 row">    
-            <div class="skills1 d-flex w-100  col-12">
+          <div class="widthAdjust min-vw-100 row">    
+            <div class="widthAdjust skills1 d-flex w-100 col-12">
               <Fade delay={1000}>
               <div>
                 <img src={Git} alt="git" class="w-50 pb-3"/>
@@ -46,8 +46,8 @@ export default function Skills(){
             </div>
           </div>
 
-          <div class="row">
-              <div class="skills1 d-flex w-100 col-12">
+          <div class="widthAdjust min-vw-100 row">
+              <div class="widthAdjust skills1 d-flex w-100 col-12">
               <Fade delay={1000}>
               <div>
                 <img src={Mongo} alt="Mongo" class="w-50 pb-3"/>

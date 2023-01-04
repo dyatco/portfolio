@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .backgroundColor{
   background-color: #023038;
 }
@@ -33,13 +38,14 @@ h1, h3{
 nav {
   font-family: 'League Spartan', sans-serif;
   color: #F1F1E6;
-  font-size: 1.5em;
+  font-size: 1.5em;;
 }
 .boxNav{
-  width: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  left:0px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .DY{
   position: absolute;
@@ -47,8 +53,6 @@ nav {
 .navButton{
   position: absolute;
   top: 10px;
-  display: flex;
-  justify-content: right;
 }
 
 .line {
@@ -165,4 +169,31 @@ ul {
   }
 }
 
-/*CONTACT*/
+/*ABOUT*/
+@media only screen and (max-width: 320px){
+  .head{
+    font-size: 18px;
+  }
+
+.postContainer{
+  overflow: hidden;
+}
+
+.widthAdjust{
+  max-width: 100%;  
+  overflow-x: hidden;
+}
+.profile{
+  width: 185px;
+  height: 200px;
+  float: left;
+  margin-right: 3px;
+}
+/*profile image*/
+.profile img{
+  border: 3px solid green;
+
+}
+
+
+}

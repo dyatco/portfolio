@@ -8,36 +8,40 @@ export default function Projects(){
   return(
     
   <div id="projects" class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5">
-      <div class="row">
-       <div class="mb-0 col-12  justify-content-center">
+      <div class="widthAdjust row ">
+       <div class="widthAdjust mb-0 col-12 d-flex justify-content-center">
         
         {/*Project 1*/}
-        <div class="row min-vw-100 justify-content-center m-0 p-0 pt-3 h-100">
+        <div class="row min-vw-100 m-0 p-0 pt-3">
           <h1>TILE CALCULATOR</h1>
           <div class="mb-3">
-
-            <div class="col-12 px-0 d-flex justify-content-center">
-              <img src={Tile} alt="tilecalc" className="projectPhoto w-75 img-fluid"/>
+            <div class="col-12 px-0">
+              <a href="https://www.Youtube.com/">
+                <img src={Tile} alt="tilecalc" className="projectPhoto w-75 img-fluid"/>
+              </a>
             </div>
           </div>
 
-           <div class="col-12 text-center p-0 d-flex justify-content-center">
-             <p class="projectDesc">
+           <div class="widthAdjust col-12 text-center p-0">
+             <p class="widthAdjust projectDesc px-3">
              Computes how many tiles are needed to fill a floor area
-             <p class="projectTools pt-1">html css bootstrap</p>
+             <p class="projectTools pt-1">powered by: html css bootstrap</p>
              </p>
             </div>
 
+          {/*Project 2*/}
           <h1 class="pt-5">SPECIFICATIONS SHEETS</h1>
 
-          <div class="col-12 px-0 d-flex justify-content-center">
+          <div class="col-12 px-0">
+           <a href="https://www.Youtube.com/">
             <img src={Spec} alt="SpecSheet" className="projectPhoto w-75 img-fluid"/>
+            </a>
           </div>
 
-          <div class="col-12 text-center p-0 d-flex justify-content-center">
-             <p class="projectDesc pt-3">
+          <div class="col-12 text-center p-0">
+             <p class="projectDesc pt-3 px-3">
                Digital tool for recording for interior design projects
-              <p class="projectTools pt-1">html css bootstrap</p>
+              <p class="projectTools pt-1">powered by: html css bootstrap</p>
              </p>
           </div>
         </div>
