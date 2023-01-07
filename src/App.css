@@ -29,7 +29,6 @@ html, body {
 h1, h3{
   font-family: 'League Spartan', sans-serif;
   font-weight: 600;
-  font-size: 4em;
   letter-spacing: 3px;
   color: #F1F1E6;
 }
@@ -142,7 +141,6 @@ ul {
 /*SKILLS*/
 .skills1{
   justify-content: space-evenly;
-
 }
 
 /*PROJECTS*/
@@ -155,19 +153,38 @@ ul {
     font-size: 30px;
   }
 
-.projectTools{
-  color: #03989e;
+
+.button{
+  background-color: #FFB15B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 8px;
   font-size: 30px;
 }
+.profile{
+  width: 385px;
+  height: 400px;
+  float: left;
+  margin-right: 3px;
+  padding-left: 10px;
+  }
 
 @media only screen and (max-width: 1024px){
   .pText{
     font-size: 20px;
   }
-
   .projectTools{
     color: #03989e;
     font-size: 20px;
+  }
+  .button{
+  font-size: 16px;
+  padding: 8px 20px;
+  }
+  .profile{
+  width: 330px;
+  height: 360px;
   }
 }
 
@@ -185,30 +202,28 @@ ul {
   color: #03989e;
   font-size: 14px;
   }
-
+  .profile{
+  width: 185px;
+  height: 200px;
+  }
 }
 
 /*ABOUT*/
 @media only screen and (max-width: 320px){
-  .landingText{
+  .landingText, .orange{
     font-size: 20px;
   }
-
   .landingText2{
     font-size: 15px;
   }
-
   .head{
     font-size: 18px;
   }
-
   .postContainer{
   overflow: hidden;
   }
-
-  .widthAdjust{
-    max-width: 100%;  
-    overflow-x: hidden;
+  .skillsText{
+    font-size: 10px;
   }
   .pText {
     font-size: 12px;
@@ -217,18 +232,15 @@ ul {
   color: #03989e;
   font-size: 12px;
   }
+  .button{
+  font-size: 12px;
+}
 }
 
 
-.profile{
-  width: 185px;
-  height: 200px;
-  float: left;
-  margin-right: 3px;
-}
-/*profile image*/
-.profile img{
-  border: 3px solid green;
 
-}
+.widthAdjust{
+    max-width: 100%;  
+    overflow-x: hidden;
+  }
 

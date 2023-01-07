@@ -13,57 +13,57 @@ export default function Skills(){
   return(
     
   <div id="skills" class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5 mb-sm-5">
-    <div class="widthAdjust row">
-       <div class="widthAdjust mb-0 col-12  justify-content-center">
+    <div class="widthAdjust row ">
+       <div class="widthAdjust mb-0 col-12 px-0">
           <Fade delay={500}>
             <h1 class="pb-3">Skills</h1>
           </Fade>
         
-          <div class="widthAdjust min-vw-100 row">    
-            <div class="widthAdjust skills1 d-flex w-100 col-12">
+          <div class="widthAdjust min-vw-100 row mx-0">    
+            <div class="widthAdjust d-flex justify-content-center p-0 px-3 skills1">
               <Fade delay={1000}>
               <div>
                 <img src={Git} alt="git" class="w-50 pb-3"/>
-                <p>Git</p>
+                <p class="skillsText">Git</p>
               </div>
               <div>
                 <img src={Html} alt="Html" class="w-50 pb-3"/>
-                <p>HTML</p>
+                <p class="skillsText">HTML</p>
               </div>
               <div>
                 <img src={CSS} alt="CSS" class="w-50 pb-3"/>
-                <p>CSS</p>
+                <p class="skillsText">CSS</p>
               </div>
               <div>
                 <img src={Bootstrap} alt="Bootstrap" class="w-50 pb-3"/>
-                <p>Bootstrap</p>
+                <p class="skillsText">Bootstrap</p>
               </div>
               <div>
                 <img src={Js} alt="Js" class="w-50 pb-3"/>
-                <p>Javascript</p>
+                <p class="skillsText">Javascript</p>
               </div>
               </Fade>
             </div>
           </div>
 
-          <div class="widthAdjust min-vw-100 row">
-              <div class="widthAdjust skills1 d-flex w-100 col-12">
+          <div class="widthAdjust min-vw-100 row mx-0">
+              <div class="widthAdjust skills1 d-flex justify-content-center p-0 px-3">
               <Fade delay={1000}>
               <div>
                 <img src={Mongo} alt="Mongo" class="w-50 pb-3"/>
-                <p>MongoDB</p>
+                <p class="skillsText">MongoDB</p>
               </div>
               <div>
                 <img src={Node} alt="Node" class="w-50 pb-3"/>
-                <p>NodeJS</p>
+                <p class="skillsText">NodeJS</p>
               </div>
               <div>
                 <img src={Express} alt="Express" class="w-50 pb-3"/>
-                <p>ExpressJS</p>
+                <p class="skillsText">ExpressJS</p>
               </div>
               <div>
                 <img src={React} alt="React" class="w-50 pb-3"/>
-                <p>ReactJS</p>
+                <p class="skillsText">ReactJS</p>
               </div>
               </Fade>
               </div>

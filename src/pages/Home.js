@@ -7,8 +7,10 @@ export default function Home(){
     <div class="widthAdjust row">
        <div class="widthAdjust mb-0 col-12 justify-content-center">
           <Fade delay={500}>
+          <div>
             <h1 class="landingText">Hi, I'm <span class="orange"> Daphne Yatco</span>,
             </h1>
+            </div>
             </Fade>
             <Fade delay={1500}>
             <div>
