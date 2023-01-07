@@ -2,13 +2,13 @@ import profile from '../Images/profile.png'
 
 export default function AboutMe(){
   return(
-    <div class="postContainer">
+    <div class="postContainer ">
         <img src={profile} alt="profile" class="profile  pe-2"/>
-
-      
-        <h1 class=" bio head mb-0 mt-5">Developer/</h1>
-        <h1 class="head mb-2">Explorer</h1>
-        <p class="pb-3 pe-3 me-sm-5 pl-3">   
+        <div class="d-md-flex">
+        <h1 class="head mb-0 pt-5">Developer/</h1>
+        <h1 class="head mb-2 pt-md-5">Explorer</h1>
+        </div>
+        <p class="pText pb-3 pe-3 me-sm-5 pl-3">   
           Hi, I'm Daphne. In August 2022, I took an intensive bootcamp in web development and found myself enjoying the front-end side of coding. I work using with HTML, CSS, and JavaScript.<br/><br/>
 
           Apart from being a web developer, I am also an explorer. I love discovering places and trying new things.
@@ -16,7 +16,7 @@ export default function AboutMe(){
      
 
      <h1 id="contact" class="pt-3 d-flex justify-content-center">Get in Touch</h1>
-      <p class="d-flex text-center justify-content-center px-3">
+      <p class="pText d-flex text-center justify-content-center px-3">
          I am currently looking for new opportunities. <br/>
          My inbox is always open for any comments or questions!
       </p>

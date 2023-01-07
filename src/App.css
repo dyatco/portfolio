@@ -151,38 +151,75 @@ ul {
   left: 0px;
 }
 
-.projectDesc{
-  font-size: 16px;
-}
+.pText{
+    font-size: 30px;
+  }
 
 .projectTools{
   color: #03989e;
-  font-size: 14px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 1024px){
+  .pText{
+    font-size: 20px;
+  }
+
+  .projectTools{
+    color: #03989e;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 576px){
-  .projectText{
+  .pText{
     min-width: 75%;
   }
   p{
     font-size: 12px;
   }
+  .pText{
+  font-size: 16px;
+  }
+  .projectTools{
+  color: #03989e;
+  font-size: 14px;
+  }
+
 }
 
 /*ABOUT*/
 @media only screen and (max-width: 320px){
+  .landingText{
+    font-size: 20px;
+  }
+
+  .landingText2{
+    font-size: 15px;
+  }
+
   .head{
     font-size: 18px;
   }
 
-.postContainer{
+  .postContainer{
   overflow: hidden;
+  }
+
+  .widthAdjust{
+    max-width: 100%;  
+    overflow-x: hidden;
+  }
+  .pText {
+    font-size: 12px;
+  }
+  .projectTools{
+  color: #03989e;
+  font-size: 12px;
+  }
 }
 
-.widthAdjust{
-  max-width: 100%;  
-  overflow-x: hidden;
-}
+
 .profile{
   width: 185px;
   height: 200px;
@@ -195,5 +232,3 @@ ul {
 
 }
 
-
-}

@@ -16,7 +16,7 @@ export default function Skills(){
     <div class="widthAdjust row">
        <div class="widthAdjust mb-0 col-12  justify-content-center">
           <Fade delay={500}>
-            <h1 class="pb-5">Skills</h1>
+            <h1 class="pb-3">Skills</h1>
           </Fade>
         
           <div class="widthAdjust min-vw-100 row">    

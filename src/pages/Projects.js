@@ -23,7 +23,7 @@ export default function Projects(){
           </div>
 
            <div class="widthAdjust col-12 text-center p-0">
-             <p class="widthAdjust projectDesc px-3">
+             <p class="pText widthAdjust px-3">
              Computes how many tiles are needed to fill a floor area
              <p class="projectTools pt-1">powered by: html css bootstrap</p>
              </p>
@@ -39,7 +39,7 @@ export default function Projects(){
           </div>
 
           <div class="col-12 text-center p-0">
-             <p class="projectDesc pt-3 px-3">
+             <p class="pText pt-3 px-3">
                Digital tool for recording for interior design projects
               <p class="projectTools pt-1">powered by: html css bootstrap</p>
              </p>
