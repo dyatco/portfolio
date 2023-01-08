@@ -13,10 +13,10 @@ export default function Skills(){
   return(
     
   <div id="skills" class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5 mb-sm-5">
-    <div class="widthAdjust row ">
+    <div class="widthAdjust row">
        <div class="widthAdjust mb-0 col-12 px-0">
           <Fade delay={500}>
-            <h1 class="pb-3">Skills</h1>
+            <h1 class="pb-3"><span class="sectionText">Skills</span></h1>
           </Fade>
         
           <div class="widthAdjust min-vw-100 row mx-0">    

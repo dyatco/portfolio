@@ -1,19 +1,21 @@
+import { Fade } from 'react-reveal'
 import profile from '../Images/profile.png'
 
 export default function AboutMe(){
   return(
+    <Fade delay={500}>
     <div class="postContainer widthAdjust">
       <img src={profile} alt="profile" class=" profile pe-2"/>
       <div class="d-md-flex">
-        <h1 class="head mb-0 pt-5">Developer/</h1>
-        <h1 class="head mb-2 pt-md-5">Explorer</h1>
+        <h1 class="sectionText head mb-0 pt-5 mt-md-5">Developer/</h1>
+        <h1 class="sectionText head mb-2 pt-md-5 mt-md-5">Explorer</h1>
       </div>
       <p class="pText pb-3 pb-lg-5 mb-lg-5 px-3 mx-0 ">
         Hi, I'm Daphne. In August 2022, I took an intensive bootcamp in web development and found myself enjoying the front-end side of coding. I work using with HTML, CSS, and JavaScript.<br/><br/>
 
         Apart from being a web developer, I am also an explorer. I love discovering places and trying new things.
       </p>
-      <h1 id="contact" class="pt-3 pt-lg-5 d-flex justify-content-center">Get in Touch</h1>
+      <h1 id="contact" class="sectionText t-3 pt-lg-5 d-flex justify-content-center">Get in Touch</h1>
       <p class="pText d-flex text-center justify-content-center px-3">
          I am currently looking for new opportunities. <br/>
          My inbox is always open for any comments or questions!
@@ -39,5 +41,6 @@ export default function AboutMe(){
         </div>
       </div>
     </div>
+    </Fade>
     )
 }

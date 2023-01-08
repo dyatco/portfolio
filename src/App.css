@@ -26,11 +26,37 @@ html, body {
 }
 
 
-h1, h3{
+.landingText {
   font-family: 'League Spartan', sans-serif;
   font-weight: 600;
   letter-spacing: 3px;
   color: #F1F1E6;
+}
+
+.landingText2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #F1F1E6;
+}
+
+.sectionText{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #FFB15B;
+}
+
+.projectHead{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 28px;
+  color: #F1F1E6;
+}
+.projectTools{
+  color: #03989e;
+  font-size: 28px;
 }
 
 /*Navbar*/
@@ -62,24 +88,6 @@ nav {
   width: 3rem;
   top: 10rem;
   border-radius: 25px;
-}
-
-h2, h4 {
-  font-family: 'League Spartan', sans-serif;
-  font-size: 2em;
-}
-
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  color: #F1F1E6;
-}
-
-h5 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  color: #F1F1E6;
 }
 
 .navbar-brand {
@@ -153,7 +161,6 @@ ul {
     font-size: 30px;
   }
 
-
 .button{
   background-color: #FFB15B;
   border: none;
@@ -164,7 +171,7 @@ ul {
 }
 .profile{
   width: 385px;
-  height: 400px;
+  height: 420px;
   float: left;
   margin-right: 3px;
   padding-left: 10px;
@@ -183,8 +190,8 @@ ul {
   padding: 8px 20px;
   }
   .profile{
-  width: 330px;
-  height: 360px;
+  width: 350px;
+  height: 390px;
   }
 }
 
@@ -202,6 +209,9 @@ ul {
   color: #03989e;
   font-size: 14px;
   }
+  .projectHead{
+    font-size: 20px;
+  }
   .profile{
   width: 185px;
   height: 200px;
@@ -211,6 +221,9 @@ ul {
 /*ABOUT*/
 @media only screen and (max-width: 320px){
   .landingText, .orange{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
     font-size: 20px;
   }
   .landingText2{
@@ -234,10 +247,8 @@ ul {
   }
   .button{
   font-size: 12px;
+  }
 }
-}
-
-
 
 .widthAdjust{
     max-width: 100%;  
