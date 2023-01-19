@@ -8,6 +8,9 @@ import Mongo from '../Images/mongo.png'
 import Node from '../Images/node.png'
 import Express from '../Images/express.png'
 import React from '../Images/react.png'
+import Canva from '../Images/canva.png'
+import Spline from '../Images/spline.png'
+import Photoshop from '../Images/photoshop.png'
 
 export default function Skills(){
   return(
@@ -16,10 +19,12 @@ export default function Skills(){
     <div class="widthAdjust row">
        <div class="widthAdjust mb-0 col-12 px-0">
           <Fade delay={500}>
-            <h1 class="pb-3"><span class="sectionText">Skills</span></h1>
+            <h1 class="pt-5 mt-5 pb-3"><span class="sectionText">Skills</span></h1>
+            <h5 class="pb-4">Code languages & tools:</h5>
           </Fade>
-        
-          <div class="widthAdjust min-vw-100 row mx-0">    
+            
+          
+          <div class="widthAdjust min-vw-100 row mx-0 pt-3">    
             <div class="widthAdjust d-flex justify-content-center p-0 px-3 skills1">
               <Fade delay={1000}>
               <div>
@@ -68,6 +73,29 @@ export default function Skills(){
               </Fade>
               </div>
           </div>
+
+          
+           
+           <div class="widthAdjust min-vw-100 row mx-0">
+           <h5 class="pt-5">Tools that help me with visuals:</h5>
+              <div class="widthAdjust skills1 d-flex justify-content-center p-0 px-3">
+              <Fade delay={1000}>
+              <div>
+                <img src={Canva} alt="Canva" class="nonCode pb-3"/>
+                <p class="skillsText">Canva</p>
+              </div>
+              <div>
+                <img src={Photoshop} alt="Photoshop" class="nonCode pb-3"/>
+                <p class="skillsText">Adobe Photoshop</p>
+              </div>
+              <div>
+                <img src={Spline} alt="Spline" class="nonCode pb-3"/>
+                <p class="skillsText">Spline</p>
+              </div>
+              </Fade>
+              </div>
+          </div>
+
       </div>
     </div>
     

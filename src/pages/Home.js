@@ -1,6 +1,7 @@
 import { Fade } from 'react-reveal'
 
 export default function Home(){
+
   return(
     
   <div id="home" class="backgroundImg container-fluid p-0 min-vh-100 min-vw-100 d-flex justify-content-center align-items-center text-center pb-5 mb-5">
@@ -8,7 +9,7 @@ export default function Home(){
        <div class="widthAdjust mb-0 col-12 justify-content-center">
           <Fade delay={500}>
           <div>
-            <h1 class="landingText">Hi, I'm <span class="orange"> Daphne Yatco</span>,
+            <h1 class="landingText">Hi, I'm <span class="orange"> Daphne Yatco</span>.
             </h1>
             </div>
             </Fade>
@@ -23,3 +24,5 @@ export default function Home(){
 
     )
 }
+
+
