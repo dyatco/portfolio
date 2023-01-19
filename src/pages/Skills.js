@@ -20,13 +20,13 @@ export default function Skills(){
        <div class="widthAdjust mb-0 col-12 px-0">
           <Fade delay={500}>
             <h1 class="pt-5 mt-5 pb-3"><span class="sectionText">Skills</span></h1>
-            <h5 class="pb-4">Code languages & tools:</h5>
+            <h5 class="pText">Code languages & tools:</h5>
           </Fade>
             
           
           <div class="widthAdjust min-vw-100 row mx-0 pt-3">    
-            <div class="widthAdjust d-flex justify-content-center p-0 px-3 skills1">
-              <Fade delay={1000}>
+            <div class="widthAdjust d-flex justify-content-center p-0  px-3 px-sm-5 skills1">
+              <Fade delay={500}>
               <div>
                 <img src={Git} alt="git" class="w-50 pb-3"/>
                 <p class="skillsText">Git</p>
@@ -51,9 +51,9 @@ export default function Skills(){
             </div>
           </div>
 
-          <div class="widthAdjust min-vw-100 row mx-0">
-              <div class="widthAdjust skills1 d-flex justify-content-center p-0 px-3">
-              <Fade delay={1000}>
+          <div class="widthAdjust min-vw-100 row mx-0 pb-5 mb-5">
+              <div class="widthAdjust skills1 d-flex justify-content-center p-0 px-3 px-sm-5">
+              <Fade delay={500}>
               <div>
                 <img src={Mongo} alt="Mongo" class="w-50 pb-3"/>
                 <p class="skillsText">MongoDB</p>
@@ -74,12 +74,12 @@ export default function Skills(){
               </div>
           </div>
 
-          
-           
            <div class="widthAdjust min-vw-100 row mx-0">
-           <h5 class="pt-5">Tools that help me with visuals:</h5>
-              <div class="widthAdjust skills1 d-flex justify-content-center p-0 px-3">
-              <Fade delay={1000}>
+           <Fade delay={500}>
+           <h5 class="pText pt-5 px-5">Tools that help me with visuals:</h5>
+           </Fade>
+              <div class="widthAdjust skills1 d-flex justify-content-center p-0 px-3 px-sm-5">
+              <Fade delay={500}>
               <div>
                 <img src={Canva} alt="Canva" class="nonCode pb-3"/>
                 <p class="skillsText">Canva</p>

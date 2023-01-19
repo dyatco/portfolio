@@ -1,9 +1,10 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Fade } from 'react-reveal'
 
   export default function NavBar(){
   
   return(
-    <div class="boxNav min-vw-100">     
+    <div class="boxNav min-vw-100 px-5">     
       <Navbar bg="none" expand="lg">
         <Container>
           <Navbar.Brand href="#home" class="ms-3 nav">DY</Navbar.Brand>

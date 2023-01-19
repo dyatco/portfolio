@@ -17,8 +17,8 @@ export default function Projects(){
             <h1><span class="sectionText">Projects</span></h1>
           </Fade>
 
-          <Fade delay={1000}>
-            <p class="pb-3">I used my passion for design as an inspiration for these projects</p>
+          <Fade delay={500}>
+            <p class="pText pb-3 px-5">I used my passion for design as an inspiration for these projects</p>
             <h1><span class="projectHead">Tile Calculator</span></h1>
             <div class="mb-3">
               <div class="col-12 px-0">
@@ -29,7 +29,7 @@ export default function Projects(){
             </div>
 
              <div class="widthAdjust col-12 text-center p-0">
-               <p class="pText widthAdjust px-3">
+               <p class="pText widthAdjust px-5">
                Computes how many tiles are needed to fill a floor area
                <p class="projectTools pt-1 pb-5">powered by: HTML, CSS, Bootstrap, Javascript, and Spline</p>
                </p>
@@ -45,7 +45,7 @@ export default function Projects(){
             </div>
 
             <div class="col-12 text-center p-0">
-               <p class="pText pt-3 px-3">
+               <p class="pText pt-3 px-5">
                  Digital tool for recording for interior design projects
                 <p class="projectTools pt-1 pb-5">powered by: HTML, CSS, and Bootstrap</p>
                </p>

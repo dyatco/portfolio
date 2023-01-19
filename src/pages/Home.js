@@ -6,7 +6,7 @@ export default function Home(){
     
   <div id="home" class="backgroundImg container-fluid p-0 min-vh-100 min-vw-100 d-flex justify-content-center align-items-center text-center pb-5 mb-5">
     <div class="widthAdjust row">
-       <div class="widthAdjust mb-0 col-12 justify-content-center">
+       <div class="widthAdjust mb-0 col-12 justify-content-center px-3">
           <Fade delay={500}>
           <div>
             <h1 class="landingText">Hi, I'm <span class="orange"> Daphne Yatco</span>.

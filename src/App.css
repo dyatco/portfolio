@@ -165,10 +165,6 @@ h5{
   left: 0px;
 }
 
-.pText{
-    font-size: 30px;
-  }
-
 .button{
   background-color: #FFB15B;
   border: none;
@@ -193,7 +189,7 @@ h5{
 
 .contactCol1{
   display: flex;
-  width: 75%;
+  width: 90%;
 }
 .contactText{
     display: flex;
@@ -212,10 +208,17 @@ h5{
   text-align: center;
   padding-left: 0;
 }
-
+.pText{
+  font-size: 30px;
+  margin-right: 0;
+}
+.aboutText{
+  font-size: 30px;
+}
 @media only screen and (max-width: 1024px){
-  .pText{
+  .pText, .aboutText{
     font-size: 20px;
+  
   }
   .projectTools{
     color: #03989e;
@@ -238,8 +241,11 @@ h5{
   p{
     font-size: 12px;
   }
-  .pText{
+  .pText, .aboutText{
   font-size: 16px;
+  }
+  .skillsText{
+    font-size: 10px;
   }
   .projectTools{
   color: #03989e;
@@ -300,7 +306,7 @@ h5{
   .skillsText{
     font-size: 10px;
   }
-  .pText {
+  .pText, .aboutText {
     font-size: 12px;
   }
   .projectTools{
