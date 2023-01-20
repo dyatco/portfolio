@@ -5,7 +5,8 @@ import gitlab from '../Images/gitlab.png'
 import ig from '../Images/ig.png'
 
 export default function AboutMe(){
-  return(
+return(
+    
     <Fade delay={500}>
     <div class="postContainer widthAdjust">
       <img src={profile} alt="profile" id="about" class="profile pl-0 pr-2"/>
@@ -28,26 +29,27 @@ export default function AboutMe(){
              My inbox is always open for any comments or questions.
           </p>
 
-          <form action="https://google.com">
+          <form action="https://formsubmit.co/dyatco@gmail.com" method="POST">
             <div class="emailForm px-5 pb-5 container-fluid">
               <label for="full_name">Full Name:</label>
-              <input type="text" name="full_name" id="full_name" class="emailInput rounded mb-3"/>
+              <input type="text" name="full_name" id="full_name" class="emailInput rounded mb-3" required/>
 
               <label for="emailadd">Email Address:</label>
-              <input type="email" name="emailadd" id="emailadd" class="emailInput rounded mb-3"/>
+              <input type="email" name="emailadd" id="emailadd" class="emailInput rounded mb-3" required/>
 
               <label for="message">Message:</label>
-              <textarea name="message" rows="3" id="message" class="emailInput rounded"></textarea>
+              <textarea name="message" rows="3" id="message" class="emailInput rounded" required></textarea>
            
-              <button type="button" class="button mt-4" data-toggle="modal" data-target="#exampleModal">Send</button>
+              <button type="submit" id="btn" class="button mt-4" data-toggle="modal" data-target="#exampleModal">Send</button>
             </div>
           </form>
 
         </div>
     </div>
 
+
     {/*Modal*/}
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     {/* <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content text-dark">
             <div class="modal-header">
@@ -61,7 +63,7 @@ export default function AboutMe(){
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       <div class="footer d-flex justify-content-center pt-1">
         <a href="https://gitlab.com/dyatco">
