@@ -1,4 +1,5 @@
 import { Fade } from 'react-reveal'
+import { Card, CardGroup } from 'react-bootstrap';
 import TileCalc from '../Images/TileCalc.png'
 import SpecSheet from '../Images/SpecSheet.png'
 import Tile from '../Images/tile.png'
@@ -6,54 +7,78 @@ import Spec from '../Images/spec.png'
 
 export default function Projects(){
   return(
-    
-  <div id="projects" class="container-fluid p-0 min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5">
-      <div class="widthAdjust row">
-       <div class="widthAdjust mb-0 col-12 d-flex justify-content-center">
-        
-        {/*Project 1*/}
-        <div class="row min-vw-100 m-0 p-0 pt-5">
-          <Fade delay={500}>
-            <h1><span class="sectionText">Projects</span></h1>
-          </Fade>
+    <div id="projects" class="container-fluid min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5">
+      <div class="row">
+        <div class="col-12">
+        <Fade delay={500}>
+          <h1><span class="sectionText">Projects</span></h1>
+        </Fade>
 
-          <Fade delay={500}>
-            <p class="pText pb-3 px-5">I used my passion for design as an inspiration for these projects</p>
-            <h1><span class="projectHead">Tile Calculator</span></h1>
-            <div class="mb-3">
-              <div class="col-12 px-0">
-                <a href="https://dyatco.github.io/tileCalc/">
-                  <img src={Tile} alt="tilecalc" className="projectPhoto w-75 img-fluid"/>
-                </a>
-              </div>
-            </div>
-
-             <div class="widthAdjust col-12 text-center p-0">
-               <p class="pText widthAdjust px-5">
-               Computes how many tiles are needed to fill a floor area
-               <p class="projectTools pt-1 pb-5">powered by: HTML, CSS, Bootstrap, Javascript, and Spline</p>
-               </p>
-              </div>
-
-            {/*Project 2*/}
-            <h1><span class="projectHead">Specifications Sheets</span></h1>
-
-            <div class="col-12 px-0">
-             <a href="https://dyatco.github.io/specSheets/index.html">
-              <img src={Spec} alt="SpecSheet" className="projectPhoto w-75 img-fluid"/>
+        <div className="row">
+          <div>
+            <div>
+              {/*Project 1*/}
+              <a target="_blank" href="https://dyatco.github.io/portfolio/">
+               <Card style={{ width: '18rem' }} className="mx-5 h-100">
+                 <Card.Img variant="top" src={TileCalc} />
+                 <Card.Body className="d-flex flex-column">
+                   <Card.Title className="projectHead">Personal Website</Card.Title>
+                   <Card.Subtitle className="my-2 text-muted">Card Subtitle</Card.Subtitle>
+                   <div className="mt-auto">
+                     <Card.Link href="#">About</Card.Link>
+                     <Card.Link href="#">Site</Card.Link>
+                   </div>
+                 </Card.Body>
+               </Card>
               </a>
             </div>
+          </div>
+        </div>
 
-            <div class="col-12 text-center p-0">
-               <p class="pText pt-3 px-5">
-                 Digital tool for recording for interior design projects
-                <p class="projectTools pt-1 pb-5">powered by: HTML, CSS, and Bootstrap</p>
-               </p>
+        <div className="row">
+          <div>
+            <div>
+             {/*Project 2*/}
+              <a target="_blank" href="https://dyatco.github.io/tileCalc/">
+              <Card style={{ width: '18rem' }} className="mx-5 h-100">
+                <Card.Img variant="top" src={TileCalc} />
+                <Card.Body className="d-flex flex-column">
+                  <Card.Title className="projectHead">Tile Calculator</Card.Title>
+                  <Card.Subtitle className="my-2 text-muted">Computes how many tiles are needed to fill a floor area</Card.Subtitle>
+                  <div className="mt-auto">
+                    <Card.Link href="#">About</Card.Link>
+                    <Card.Link href="#">Site</Card.Link>
+                  </div>
+                </Card.Body>
+              </Card>
+              </a>
             </div>
-            </Fade>
           </div> 
         </div>
-       </div>
-      </div>
+
+        <div className="row">
+          <div>
+            <div>
+            {/*Project 3*/}
+              <a target="_blank" href="https://dyatco.github.io/specSheets/">
+               <Card style={{ width: '18rem' }} className="mx-5 h-100">
+                 <Card.Img variant="top" src={SpecSheet} />
+                 <Card.Body className="d-flex flex-column">
+                   <Card.Title className="projectHead">Specifications Sheets</Card.Title>
+                   <Card.Subtitle className="my-2 text-muted">Digital tool for recording for interior design projects</Card.Subtitle>
+                   <div className="mt-auto">
+                     <Card.Link href="#">About</Card.Link>
+                     <Card.Link href="#">Site</Card.Link>
+                   </div>
+                 </Card.Body>
+               </Card>
+               </a>
+             </div>
+          </div>
+        </div>
+
+  </div>
+</div>
+  </div>
   )
 }

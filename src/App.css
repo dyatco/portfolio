@@ -50,9 +50,9 @@ html, body {
 .projectHead{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;
   font-size: 32px;
-  color: #F1F1E6;
+  color: #023038;
 }
 .projectTools{
   color: #03989e;
