@@ -19,7 +19,6 @@ export default function Projects(){
 
        <Row class="d-flex flex-column flex-md-row" xs={1} md={3}>
               {/*Project 1*/}
-              <>
                <Card className="projCard mx-md-1 mx-lg-3 mx-xl-5 h-100 mb-5 px-0">
                 <Link to={"/portfoliopage"}>
                  <Card.Img variant="top" src={Portfolio} />
@@ -35,37 +34,42 @@ export default function Projects(){
                    </div>
                  </Card.Body>
                </Card>
-              </>
             
              {/*Project 2*/}
-              <a target="_blank" href="https://dyatco.github.io/tileCalc/" class="px-0">
-              <Card className="projCard mx-md-1 mx-lg-3 mx-xl-5 h-100 mb-5">
+             <>
+              <Card className="projCard mx-md-1 mx-lg-3 mx-xl-5 h-100 mb-5 px-0">
+                <Link to={"/portfoliopage"}>
                 <Card.Img variant="top" src={TileCalc} />
+                </Link>
                 <Card.Body className="d-flex flex-column">
                   <Card.Title className="projectHead">Tile Calculator</Card.Title>
                   <Card.Subtitle className="my-2 text-muted">I built this app to help those who need to find out how many tiles they need to fill a floor area. </Card.Subtitle>
                   <div className="mt-auto">
-                    <Card.Link href="#">Details</Card.Link>
-                    <Card.Link href="#">Link</Card.Link>
+                    <Link to={"/portfoliopage"}>
+                     <Card.Body>Details</Card.Body>
+                    </Link>
+                    <Card.Link target="_blank" href="https://dyatco.github.io/tileCalc">Link</Card.Link>
                   </div>
                 </Card.Body>
               </Card>
-              </a>
+              </>
 
             {/*Project 3*/}
-              <a target="_blank" href="https://dyatco.github.io/specSheets/" class="px-0">
-               <Card className="projCard mx-md-1 mx-lg-3 mx-xl-5 h-100 mb-5">
+               <Card className="projCard mx-md-1 mx-lg-3 mx-xl-5 h-100 mb-5 px-0">
+                <Link to={"/portfoliopage"}>
                  <Card.Img variant="top" src={SpecSheet} />
+                </Link>
                  <Card.Body className="d-flex flex-column">
                    <Card.Title className="projectHead">Specifications Sheets</Card.Title>
                    <Card.Subtitle className="my-2 text-muted">This project is a responsive interface for a tool that helps interior designers  keep track of their projects</Card.Subtitle>
                    <div className="mt-auto">
-                     <Card.Link href="#">Details</Card.Link>
-                     <Card.Link href="#">Link</Card.Link>
+                     <Link to={"/portfoliopage"}>
+                      <Card.Body>Details</Card.Body>
+                     </Link>
+                     <Card.Link target="_blank" href="https://dyatco.github.io/specSheets">Link</Card.Link>
                    </div>
                  </Card.Body>
                </Card>
-               </a>
           </Row>
 
   </div>

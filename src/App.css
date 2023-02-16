@@ -165,6 +165,8 @@ h5{
 }
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
+  color: #FFB15B;
+  
 }
 
 .projectPage{
