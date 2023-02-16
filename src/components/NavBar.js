@@ -5,12 +5,11 @@ import { Fade } from 'react-reveal'
   
   return(
     <div class="boxNav min-vw-100 px-5">     
-      <Navbar bg="none" expand="lg">
+      <Navbar bg="none" expand="lg" variant="dark">
         <Container>
           <Navbar.Brand href="#home" class="ms-3 nav">DY</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-
             <Nav className="ms-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>

@@ -1,20 +1,16 @@
 /* CSS Reset */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
 .backgroundColor{
   background-color: #023038;
 }
-
 .backgroundImg {
   background-image: url(./Images/bg.png);
   background-repeat: no-repeat;
@@ -24,29 +20,24 @@ html, body {
   background-size:cover;
   background-position: center top;
 }
-
-
 .landingText {
   font-family: 'League Spartan', sans-serif;
   font-weight: 600;
   letter-spacing: 3px;
   color: #F1F1E6;
 }
-
 .landingText2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   letter-spacing: 3px;
   color: #F1F1E6;
 }
-
 .sectionText{
   font-family: 'League Spartan', sans-serif;
   font-weight: 600;
   letter-spacing: 3px;
   color: #FFB15B;
 }
-
 .projectHead{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -56,9 +47,17 @@ html, body {
 }
 
 /*Navbar*/
+.navbar-brand{
+  color: #FFFFFF80 !important;
+}
+.nav-link:hover{
+  color: #FFB15B !important;
+}
+.active{
+  color: #FFFFFF80 !important;
+}
 nav {
   font-family: 'League Spartan', sans-serif;
-  color: #F1F1E6;
   font-size: 1.5em;;
 }
 .boxNav{
@@ -75,30 +74,15 @@ nav {
   position: absolute;
   top: 10px;
 }
-
-.line {
-  position: absolute;
-  margin: auto;
-  height: 10px;
-  background: #FFB15B;
-  width: 3rem;
-  top: 10rem;
-  border-radius: 25px;
-}
-
 .navbar-brand {
-  /*color: #FFB15B;*/
   font-size: 1.5em;
 }
-
 .orange {
   color: #FFB15B;
 }
-
 .offwhite {
   color: #F1F1E6;
 }
-
 .containerheight {
   height: 50%;
   width: 100%;
@@ -137,13 +121,16 @@ ul {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-
 .center {
   margin: auto;
 }
 
 /*SKILLS*/
-.skills1{
+.skillsContainer{
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.skillRow{
   justify-content: space-evenly;
 }
 h5{
@@ -156,11 +143,10 @@ h5{
 }
 
 /*PROJECTS*/
-.projects{
+.projectsContainer{
   margin-left: 80px;
   margin-right: 80px;
 }
-
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   color: #FFB15B;
@@ -178,6 +164,10 @@ h2+p, h2+ul, .projectDescPhoto{
 
 
 /*GET IN TOUCH*/
+.aboutContainer{
+  margin-left: 80px;
+  margin-right: 80px;
+}
 .button{
   background-color: #FFB15B;
   border: none;
@@ -194,19 +184,6 @@ h2+p, h2+ul, .projectDescPhoto{
   margin-right: 3px;
   padding-left: 10px;
 }
-.contactContainer{
-  display: flex;
-  justify-content: center;
-}
-.contactCol1{
-  display: flex;
-  width: 90%;
-}
-.contactText{
-  display: flex;
-  justify-content: center;
-  text-align: start;
-}
 .emailForm{
   min-width: 50vw;
   display: flex;
@@ -221,7 +198,6 @@ h2+p, h2+ul, .projectDescPhoto{
 }
 .pText{
   font-size: 30px;
-  margin-right: 0;
 }
 .aboutText{
   font-size: 30px;
@@ -243,11 +219,14 @@ h2+p, h2+ul, .projectDescPhoto{
 }
 
 @media only screen and (max-width: 768px){
+  .sectionText{
+    font-size: 20px;
+  }
+  label{
+    font-size: 16px;
+  }
   .projCard{
   width: 20rem;
-  }
-  .pText{
-    min-width: 75%;
   }
   p, li{
     font-size: 12px;
@@ -255,29 +234,27 @@ h2+p, h2+ul, .projectDescPhoto{
   .pText, .aboutText{
   font-size: 16px;
   }
+  .skillsContainer{
+  margin-right: 16px;
+  margin-left: 16px;
+  }
   .skillsText{
     font-size: 10px;
+  }
+  .projectsContainer{
+    margin-left: 16px;
+    margin-right: 16px;
   }
   .projectHead{
     font-size: 20px;
   }
+  .aboutContainer{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
   .profile{
   width: 185px;
   height: 200px;
-  }
-  .contactContainer{
-    display: block;
-    min-width: 100vw;
-  }
-  .contactCol1{
-    display: block;
-    text-align: center;
-  }
-  .contactText{
-    display: flex;
-    justify-content: center;
-    min-width: 100vw;
-    text-align: center;
   }
   .emailForm{
     min-width: 100vw;
@@ -307,9 +284,6 @@ h2+p, h2+ul, .projectDescPhoto{
   .head{
     font-size: 18px;
   }
-  .postContainer{
-  overflow: hidden;
-  }
   .skillsText{
     font-size: 10px;
   }
@@ -326,20 +300,6 @@ h2+p, h2+ul, .projectDescPhoto{
     width: 150px;
     height: 160px;
   }
-  .contactContainer{
-    display: block;
-    min-width: 100vw;
-  }
-  .contactCol1{
-    display: block;
-    text-align: center;
-  }
-  .contactText{
-    display: flex;
-    justify-content: center;
-    min-width: 100vw;
-    text-align: center;
-  }
   .emailForm{
     min-width: 100vw;
     display: block;
@@ -355,11 +315,6 @@ h2+p, h2+ul, .projectDescPhoto{
     padding-left: 0;
   }
 }
-
-.widthAdjust{
-    max-width: 100%;  
-    overflow-x: hidden;
-  }
 .icon{
   width: 35px;
 }

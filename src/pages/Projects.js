@@ -10,11 +10,9 @@ import Spec from '../Images/spec.png'
 
 export default function Projects(){
   return(
-    <div class="projects d-flex justify-content-center">
-      <div class="d-flex flex-column text-center pb-5 px-0">
-        <Fade delay={500}>
-          <h1 class="d-flex justify-content-center mb-0"><span class="sectionText">Projects</span></h1>
-        </Fade>
+    <div id="projects" class="projectsContainer d-flex justify-content-center">
+      <div class="d-flex flex-column text-center pb-5 mb-0 mb-md-5 px-0">
+          <h1 class="d-flex justify-content-center pb-3 mb-0 pt-5 mt-0 mt-md-5"><span class="sectionText">Projects</span></h1>
 
        <div class="d-flex flex-column flex-md-row justify-content-center">
         {/*Project 1*/}
