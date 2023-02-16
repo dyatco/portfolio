@@ -54,10 +54,6 @@ html, body {
   font-size: 32px;
   color: #023038;
 }
-.projectTools{
-  color: #03989e;
-  font-size: 28px;
-}
 
 /*Navbar*/
 nav {
@@ -160,15 +156,15 @@ h5{
 }
 
 /*PROJECTS*/
-.projCard{
-  width: 18rem;
+.projects{
+  margin-left: 80px;
+  margin-right: 80px;
 }
+
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   color: #FFB15B;
-  
 }
-
 .projectPage{
   min-height: 100vh;
   padding: 80px;
@@ -197,22 +193,20 @@ h2+p, h2+ul, .projectDescPhoto{
   float: left;
   margin-right: 3px;
   padding-left: 10px;
-  }
-
+}
 .contactContainer{
   display: flex;
   justify-content: center;
 }
-
 .contactCol1{
   display: flex;
   width: 90%;
 }
 .contactText{
-    display: flex;
-    justify-content: center;
-    text-align: start;
-  }
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
 .emailForm{
   min-width: 50vw;
   display: flex;
@@ -237,9 +231,6 @@ h2+p, h2+ul, .projectDescPhoto{
 @media only screen and (max-width: 1024px){
   .pText, .aboutText{
     font-size: 20px;
-  }
-  .projCard{
-  width: 16rem;
   }
   .button{
   font-size: 16px;

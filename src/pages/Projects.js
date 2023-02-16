@@ -10,70 +10,65 @@ import Spec from '../Images/spec.png'
 
 export default function Projects(){
   return(
-    <div class="container-fluid min-vh-75 min-vw-100 d-flex justify-content-center text-center pb-5">
-      <div class="row">
-        <div class="col-12">
+    <div class="projects d-flex justify-content-center">
+      <div class="d-flex flex-column text-center pb-5 px-0">
         <Fade delay={500}>
-          <h1 class="pb-5"><span class="sectionText">Projects</span></h1>
+          <h1 class="d-flex justify-content-center mb-0"><span class="sectionText">Projects</span></h1>
         </Fade>
 
-       <Row class="d-flex flex-column flex-md-row" xs={1} md={3}>
-              {/*Project 1*/}
-               <Card className="projCard mx-md-1 mx-lg-3 mx-xl-5 h-100 mb-5 px-0">
-                <Link to={"/portfoliopage"}>
-                 <Card.Img variant="top" src={Portfolio} />
-                </Link>
-                 <Card.Body className="d-flex flex-column">
-                   <Card.Title className="projectHead">Personal Website</Card.Title>
-                   <Card.Subtitle className="my-2 text-muted">This is the second iteration of the personal portfolio I made during coding bootcamp. From a static site, I turned my portfolio into a React app </Card.Subtitle>
-                   <div className="mt-auto">
-                    <Link to={"/portfoliopage"}>
-                     <Card.Body>Details</Card.Body>
-                    </Link>
-                    <Card.Link href="https://dyatco.github.io/portfolio">Link</Card.Link>
-                   </div>
-                 </Card.Body>
-               </Card>
+       <div class="d-flex flex-column flex-md-row justify-content-center">
+        {/*Project 1*/}
+         <Card className="me-md-3 mb-3 border-0">
+          <Link to={"/portfoliopage"}>
+           <Card.Img variant="top" src={Portfolio} />
+          </Link>
+           <Card.Body>
+             <Card.Title className="projectHead">Personal Website</Card.Title>
+             <Card.Subtitle className="my-3 text-muted">This is the second iteration of the personal portfolio I made during coding bootcamp. From a static site, I turned my portfolio into a React app </Card.Subtitle>
+             <div class="d-flex justify-content-center mt-auto">
+              <Link to={"/portfoliopage"} >
+               <Card.Body className="p-0 pe-3">Details</Card.Body>
+              </Link>
+              <Card.Link href="https://dyatco.github.io/portfolio">Link</Card.Link>
+              </div>
+           </Card.Body>
+         </Card>
             
-             {/*Project 2*/}
-             <>
-              <Card className="projCard mx-md-1 mx-lg-3 mx-xl-5 h-100 mb-5 px-0">
+         {/*Project 2*/}
+          <Card className="projectCard mb-3 border-0">
+            <Link to={"/portfoliopage"}>
+            <Card.Img variant="top" src={TileCalc} />
+            </Link>
+            <Card.Body className="d-flex flex-column">
+              <Card.Title className="projectHead">Tile Calculator</Card.Title>
+              <Card.Subtitle className="my-3 text-muted">I built this app to help those who need to find out how many tiles they need to fill a floor area. </Card.Subtitle>
+              <div class="d-flex justify-content-center mt-auto">
                 <Link to={"/portfoliopage"}>
-                <Card.Img variant="top" src={TileCalc} />
+                 <Card.Body className="p-0 pe-3">Details</Card.Body>
                 </Link>
-                <Card.Body className="d-flex flex-column">
-                  <Card.Title className="projectHead">Tile Calculator</Card.Title>
-                  <Card.Subtitle className="my-2 text-muted">I built this app to help those who need to find out how many tiles they need to fill a floor area. </Card.Subtitle>
-                  <div className="mt-auto">
-                    <Link to={"/portfoliopage"}>
-                     <Card.Body>Details</Card.Body>
-                    </Link>
-                    <Card.Link target="_blank" href="https://dyatco.github.io/tileCalc">Link</Card.Link>
-                  </div>
-                </Card.Body>
-              </Card>
-              </>
+                <Card.Link target="_blank" href="https://dyatco.github.io/tileCalc">Link</Card.Link>
+              </div>
+            </Card.Body>
+          </Card>
 
-            {/*Project 3*/}
-               <Card className="projCard mx-md-1 mx-lg-3 mx-xl-5 h-100 mb-5 px-0">
-                <Link to={"/portfoliopage"}>
-                 <Card.Img variant="top" src={SpecSheet} />
-                </Link>
-                 <Card.Body className="d-flex flex-column">
-                   <Card.Title className="projectHead">Specifications Sheets</Card.Title>
-                   <Card.Subtitle className="my-2 text-muted">This project is a responsive interface for a tool that helps interior designers  keep track of their projects</Card.Subtitle>
-                   <div className="mt-auto">
-                     <Link to={"/portfoliopage"}>
-                      <Card.Body>Details</Card.Body>
-                     </Link>
-                     <Card.Link target="_blank" href="https://dyatco.github.io/specSheets">Link</Card.Link>
-                   </div>
-                 </Card.Body>
-               </Card>
-          </Row>
-
-  </div>
+          {/*Project 3*/}
+             <Card className="ms-md-3 mb-3 border-0">
+              <Link to={"/portfoliopage"}>
+               <Card.Img variant="top" src={SpecSheet} />
+              </Link>
+               <Card.Body className="d-flex flex-column">
+                 <Card.Title className="projectHead">Specifications Sheets</Card.Title>
+                 <Card.Subtitle className="my-3 text-muted">This project is a responsive interface for a tool that helps interior designers  keep track of their projects</Card.Subtitle>
+                 <div class="d-flex justify-content-center mt-auto">
+                   <Link to={"/portfoliopage"}>
+                    <Card.Body className="p-0 pe-3">Details</Card.Body>
+                   </Link>
+                   <Card.Link target="_blank" href="https://dyatco.github.io/specSheets">Link</Card.Link>
+                 </div>
+               </Card.Body>
+             </Card>
+          </div>
+        </div>
 </div>
-  </div>
   )
 }
