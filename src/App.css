@@ -47,14 +47,11 @@ html, body {
 }
 
 /*Navbar*/
-.navbar-brand{
+.navItem {
   color: #FFFFFF80 !important;
 }
-.nav-link:hover{
+.navItem:hover{
   color: #FFB15B !important;
-}
-.active{
-  color: #FFFFFF80 !important;
 }
 nav {
   font-family: 'League Spartan', sans-serif;
@@ -63,9 +60,11 @@ nav {
 .boxNav{
   position: absolute;
   top: 0;
-  left:0px;
-  padding-left: 15px;
-  padding-right: 15px;
+  left: 0;
+}
+.navContainer{
+  margin-right: 80px;
+  margin-left: 80px;
 }
 .DY{
   position: absolute;
@@ -161,7 +160,9 @@ a:link, a:visited, a:hover, a:active {
 h2+p, h2+ul, .projectDescPhoto{
   margin-bottom: 40px;
 }
-
+h2{
+  color: #FFB15B;
+}
 
 /*GET IN TOUCH*/
 .aboutContainer{
@@ -219,6 +220,11 @@ h2+p, h2+ul, .projectDescPhoto{
 }
 
 @media only screen and (max-width: 768px){
+
+.navContainer{
+  margin-right: 16px;
+  margin-left: 16px;
+}
   .sectionText{
     font-size: 20px;
   }
