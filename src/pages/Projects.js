@@ -1,6 +1,7 @@
 import { Fade } from 'react-reveal'
 import { Link } from "react-router-dom";
 import { Card, CardGroup, Row } from 'react-bootstrap';
+import CalcPage from './CalcPage';
 import Portfolio from '../Images/Portfolio.png'
 import PortfolioPage from './PortfolioPage';
 import TileCalc from '../Images/TileCalc.png'
@@ -27,7 +28,7 @@ export default function Projects(){
               <Link to={"/portfoliopage"} >
                <Card.Body className="p-0 pe-3">Details</Card.Body>
               </Link>
-              <Card.Link href="https://dyatco.github.io/portfolio">Link</Card.Link>
+              <Card.Link target="_blank" href="https://dyatco.github.io/portfolio">Link</Card.Link>
               </div>
            </Card.Body>
          </Card>
@@ -41,7 +42,7 @@ export default function Projects(){
               <Card.Title className="projectHead">Tile Calculator</Card.Title>
               <Card.Subtitle className="my-3 text-muted">I built this app to help those who need to find out how many tiles they need to fill a floor area. </Card.Subtitle>
               <div class="d-flex justify-content-center mt-auto">
-                <Link to={"/portfoliopage"}>
+                <Link to={"/calcpage"}>
                  <Card.Body className="p-0 pe-3">Details</Card.Body>
                 </Link>
                 <Card.Link target="_blank" href="https://dyatco.github.io/tileCalc">Link</Card.Link>
@@ -51,14 +52,14 @@ export default function Projects(){
 
           {/*Project 3*/}
              <Card className="ms-md-3 mb-3 border-0">
-              <Link to={"/portfoliopage"}>
+              <Link to={"/sheetpage"}>
                <Card.Img variant="top" src={SpecSheet} />
               </Link>
                <Card.Body className="d-flex flex-column">
                  <Card.Title className="projectHead">Specifications Sheets</Card.Title>
                  <Card.Subtitle className="my-3 text-muted">This project is a responsive interface for a tool that helps interior designers  keep track of their projects</Card.Subtitle>
                  <div class="d-flex justify-content-center mt-auto">
-                   <Link to={"/portfoliopage"}>
+                   <Link to={"/sheetpage"}>
                     <Card.Body className="p-0 pe-3">Details</Card.Body>
                    </Link>
                    <Card.Link target="_blank" href="https://dyatco.github.io/specSheets">Link</Card.Link>

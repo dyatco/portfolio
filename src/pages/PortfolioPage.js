@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import Portfolio from '../Images/Portfolio.png';
 
 export default function PortfolioPage(){
 
+	useEffect(() => {
+	  window.scrollTo(0, 0)
+	}, [])
+	
 	return(
 		<div class="projectPage headFont">
 			<img src={Portfolio} class="projectDescPhoto img-fluid"/>
