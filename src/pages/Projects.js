@@ -1,6 +1,7 @@
 import { Fade } from 'react-reveal'
 import { Link } from "react-router-dom";
 import { Card, CardGroup, Row } from 'react-bootstrap';
+import Airbnb from '../Images/Airbnb.png'
 import CalcPage from './CalcPage';
 import Portfolio from '../Images/Portfolio.png'
 import PortfolioPage from './PortfolioPage';
@@ -17,7 +18,7 @@ export default function Projects(){
 
        <div class="d-flex flex-column flex-md-row justify-content-center">
         {/*Project 1*/}
-         <Card className="me-md-3 mb-3 border-0">
+         <Card className="me-md-3 mb-5 mb-md-3 border-0">
           <Link to={"/portfoliopage"}>
            <Card.Img variant="top" src={Portfolio} />
           </Link>
@@ -34,7 +35,7 @@ export default function Projects(){
          </Card>
             
          {/*Project 2*/}
-          <Card className="projectCard mb-3 border-0">
+          <Card className="projectCard mb-5 mb-md-3 border-0">
             <Link to={"/portfoliopage"}>
             <Card.Img variant="top" src={TileCalc} />
             </Link>
@@ -51,21 +52,31 @@ export default function Projects(){
           </Card>
 
           {/*Project 3*/}
-             <Card className="ms-md-3 mb-3 border-0">
-              <Link to={"/sheetpage"}>
-               <Card.Img variant="top" src={SpecSheet} />
-              </Link>
-               <Card.Body className="d-flex flex-column">
-                 <Card.Title className="projectHead">Specifications Sheets</Card.Title>
-                 <Card.Subtitle className="my-3 text-muted">This project is a responsive interface for a tool that helps interior designers  keep track of their projects</Card.Subtitle>
-                 <div class="d-flex justify-content-center mt-auto">
-                   <Link to={"/sheetpage"}>
-                    <Card.Body className="p-0 pe-3">Details</Card.Body>
-                   </Link>
-                   <Card.Link target="_blank" href="https://dyatco.github.io/specSheets">Link</Card.Link>
-                 </div>
-               </Card.Body>
-             </Card>
+           <Card className="ms-md-3 mb-5 mb-md-3 border-0">
+            <Link to={"/sheetpage"}>
+             <Card.Img variant="top" src={SpecSheet} />
+            </Link>
+             <Card.Body className="d-flex flex-column">
+               <Card.Title className="projectHead">Spec Sheets</Card.Title>
+               <Card.Subtitle className="my-3 text-muted">This project is a responsive interface for a tool that helps interior designers  keep track of their projects</Card.Subtitle>
+               <div class="d-flex justify-content-center mt-auto">
+                 <Link to={"/sheetpage"}>
+                  <Card.Body className="p-0 pe-3">Details</Card.Body>
+                 </Link>
+                 <Card.Link target="_blank" href="https://dyatco.github.io/specSheets">Link</Card.Link>
+               </div>
+             </Card.Body>
+           </Card>
+
+           {/*Project 3*/}
+            <Card className="ms-md-3 mb-md-3 border-0">
+              <Card.Img variant="top" src={Airbnb} />
+              <Card.Body className="d-flex flex-column">
+                <Card.Title className="projectHead">Airbnb Clone</Card.Title>
+                <Card.Subtitle className="my-3 text-muted">A project I am working on. Coming soon!</Card.Subtitle>
+              </Card.Body>
+            </Card>
+
           </div>
         </div>
 </div>

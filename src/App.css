@@ -220,11 +220,10 @@ h2{
 }
 
 @media only screen and (max-width: 768px){
-
-.navContainer{
-  margin-right: 16px;
-  margin-left: 16px;
-}
+  .navContainer{
+    margin-right: 16px;
+    margin-left: 16px;
+  }
   .sectionText{
     font-size: 20px;
   }
@@ -259,8 +258,8 @@ h2{
     margin-right: 16px;
   }
   .profile{
-  width: 185px;
-  height: 200px;
+    width: 185px;
+    height: 200px;
   }
   .emailForm{
     min-width: 100vw;
@@ -298,6 +297,9 @@ h2{
   }
   .projCard{
   width: 15rem;
+  }
+  .projectHead{
+    font-size: 18px;
   }
   .button{
   font-size: 12px;
